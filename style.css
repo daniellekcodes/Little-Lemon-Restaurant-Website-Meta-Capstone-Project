@@ -1,0 +1,122 @@
+:root {
+    --background-white:#FFFFFF;
+    --main-colour: #495E57;
+    --alert-yellow: #F4CE14;
+    --background-grey: #EDEFEE;
+
+}
+body {
+    background-color:var(--background-white);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+#hero {
+    margin-top: 0;
+    background-color: var(--main-colour);
+    color: var(--background-white);
+}
+
+
+
+#hero img {
+    max-height: 15rem;
+}
+
+.article img {
+    max-height: 170px;
+    width: 100%;
+}
+
+.article {
+    margin-bottom:0.5rem;
+}
+
+    
+.article-description {
+    background-color: var(--background-grey);
+    padding: 1rem;
+    
+        
+}
+
+.alert {
+    width:fit-content;
+    background-color:var(--alert-yellow);
+}
+
+
+#testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.testimonial {
+    background-color: var(--background-grey);
+    margin: 0.5rem;
+    text-align: left;
+}
+
+#about{
+    background-color: var(--alert-yellow);
+    margin-bottom: 0;
+    
+}
+
+footer {
+    background-color: var(--main-colour);
+}
+footer .row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.5rem;
+    padding: 1rem;
+}
+footer ul {
+    list-style: none;
+}
+
+footer .row img {
+    padding: 0.5rem;
+    background-color: var(--background-white);
+}
+.lihead {
+    font-size: larger;
+    font-weight: bold;
+}
+
