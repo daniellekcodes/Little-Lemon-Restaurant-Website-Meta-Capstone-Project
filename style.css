@@ -8,10 +8,7 @@
 body {
     background-color:var(--background-white);
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    /* margin-left: 5%; */
-    /* margin-right: 5%; */
+   
 }
 
 h1 {
@@ -45,12 +42,61 @@ section {
     margin-top: 0;
     background-color: var(--main-colour);
     color: var(--background-white);
+   
+    
+    
 }
 
 
+.hero-row {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
-#hero img {
-    max-height: 15rem;
+.littlelemonphoto img {
+    max-height:280px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--main-colour);
+}
+
+.dropdown-item:hover {
+    background-color: var(--alert-yellow);
+}
+
+#reservation-banner {
+    margin-top:0;
+    background-color: var(--alert-yellow);
+    background-image: url(assets/seats.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-grey);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+.form-row input, .form-row textarea, .form-row select {
+    background-color: var(--background-grey);
+}
+
+.form-row p {
+    text-align: justify;
 }
 
 .article img {
@@ -60,6 +106,53 @@ section {
 
 .article {
     margin-bottom:0.5rem;
+}
+
+.card {
+    margin: 1rem;
+    padding: 0;
+    
+}
+
+.card img {
+    width: fit-content;
+
+}
+
+.food-detail {
+    padding: 1rem;
+}
+
+.food, .reviewcart {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.food .alert {
+    padding: 0.05rem;
+}
+
+.food-detail p {
+    font-size: 0.8rem;
+}
+
+.food h2 {
+    font-weight:bolder;
+}
+
+.reviewcart h2 {
+    background-color: var(--background-grey);
+    color:black;
+    font-size: 1rem;
+    padding: 0.4rem;
+    
+
+}
+
+.reviewcart h2:hover {
+    background-color: var(--alert-yellow);
+
 }
 
     
@@ -87,6 +180,15 @@ section {
     background-color: var(--background-grey);
     margin: 0.5rem;
     text-align: left;
+    height: fit-content;
+}
+
+.testimonial img {
+    height: 4rem;
+    margin-top: 1rem;
+    background-color: var(--background-white);
+
+    border-radius: 10%;
 }
 
 #about{
